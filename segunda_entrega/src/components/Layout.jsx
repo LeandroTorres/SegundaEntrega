@@ -1,5 +1,6 @@
-import {Link, Outlet} from "react-router-dom"
+import { Link, Outlet } from "react-router-dom"
 import React from 'react'
+import { FaShoppingCart } from 'react-icons/fa';
 
 function Layout() {
   return (
@@ -15,9 +16,15 @@ function Layout() {
           <li>
             <Link to={"/nosotros"}>Nosotros</Link>
           </li>
+          <Link to={"/carrito"}>Ver carrito</Link>
         </ul>
       </nav>
-      <Outlet/>
+
+      <Link to="/carrito" className="carrito-fijo">
+        <FaShoppingCart size={28} />
+      </Link>
+      
+      <Outlet />      
     </>
   )
 }

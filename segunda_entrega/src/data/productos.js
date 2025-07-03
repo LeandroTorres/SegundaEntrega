@@ -4,7 +4,7 @@ const productos=[
   {
     "id": 1000,
     "nombre": "Termómetro Digital",
-    "descripción": "Producto: Termómetro Digital de alta calidad",
+    "descripción": "Termómetro Digital de alta calidad",
     "precio": 5850.42,
     "imagen": "",
     "categoria": "Salud"
@@ -20,7 +20,7 @@ const productos=[
   {
     "id": 1002,
     "nombre": "Alcohol en Gel",
-    "descripción": "Producto: Alcohol en Gel de alta calidad",
+    "descripción": "Alcohol en Gel de alta calidad",
     "precio": 3215.72,
     "imagen": "",
     "categoria": "Salud"
